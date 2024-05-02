@@ -1,0 +1,45 @@
+.overview p{
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+.overview{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 40px ;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.month-btn {
+    border-radius: 30px;
+    padding: 5px 15px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+    cursor: pointer;
+}
+.customize-btn{
+    border-radius: 30px;
+    padding: 5px 15px;
+    border: 1px solid gray;
+    font-size: 12PX;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: gray;
+    cursor: pointer;
+}
+
+.btns svg{
+    color: gray;
+}

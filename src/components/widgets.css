@@ -1,0 +1,49 @@
+.widgets {
+  margin: 10px 40px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2px;
+  justify-items: center;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 30px 10px 10px 10px;
+  cursor: pointer;
+}
+.item p {
+  font-size: 15px;
+  color: gray;
+  font-weight: 500;
+}
+.item h4 {
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+}
+.item svg {
+  width: 24px;
+  height: 24px;
+}
+
+.widgets .item-1 svg {
+  color: var(--primary);
+}
+.widgets .item-2 svg {
+  color: rgb(43, 186, 243);
+}
+.widgets .item-3 svg {
+  color: rgb(219, 198, 11);
+  
+}
+
+.widgets .item-4 svg {
+  color: rgb(224, 137, 5);
+}
+.widgets .item-5 svg {
+  color: rgb(214, 47, 5);
+}
+.widgets .item-6 svg {
+  color: rgb(59, 248, 2);
+}

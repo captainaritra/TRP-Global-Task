@@ -1,0 +1,154 @@
+.appli-card {
+  max-width: 65vw;
+  margin: 40px;
+}
+.appli-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.appli-card-head h5 {
+  font-size: 18px;
+  color: black;
+}
+.time-period {
+  display: flex;
+}
+
+.time-period button {
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 10px;
+  color: gray;
+}
+
+.time-period button:hover {
+  font-weight: 600;
+  color: black;
+  background-color: rgba(179, 179, 179, 0.288);
+}
+
+.section-1 {
+  display: grid;
+  grid-template-columns: 72vw 1fr;
+}
+.side-part-1 {
+  padding: 40px 10px 10px 10px;
+}
+.side-part-1 .schedule-card h5 {
+  font-size: 18px;
+  color: black;
+}
+.side-part-1 .schedule-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.side-part-1 .schedule-card p {
+  color: white;
+  background-color: #8c1ae8;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+.schedule-work img {
+  width: 30px;
+  margin-right: 20px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.schedule {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 5px 5px 0px;
+}
+.schedule-work {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 20px;
+}
+.work-1 {
+  background-color: rgb(0, 140, 255);
+}
+.work-2 {
+  background-color: rgb(1, 88, 20);
+}
+.work-3 {
+  background-color: rgb(218, 87, 0);
+}
+.work-4 {
+  background-color: rgb(140, 26, 232);
+}
+.schedule .icon svg {
+  width: 10px;
+  height: 10px;
+}
+.schedule .icon-1 svg {
+  color: rgb(0, 140, 255);
+}
+.schedule .icon-2 svg {
+  color: rgb(1, 88, 20);
+}
+.schedule .icon-3 svg {
+  color: rgb(218, 87, 0);
+}
+.schedule .icon-4 svg {
+  color: rgb(140, 26, 232);
+}
+.schedule .time {
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+}
+
+.work-1 :nth-child(2) {
+  position: absolute;
+  margin-left: 20px;
+}
+.work-2 :nth-child(2) {
+  position: absolute;
+  margin-left: 20px;
+}
+.work-2 :nth-child(3) {
+  position: absolute;
+  margin-left: 40px;
+}
+.work-4 :nth-child(2) {
+  position: absolute;
+  margin-left: 20px;
+}
+.schedule .work-2 p {
+  margin-left: 25px;
+}
+.schedule .work-3 p {
+  margin-left: -15px;
+}
+.schedule-work p {
+  color: white;
+  margin-left: 5px;
+  padding: 5px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.btn button {
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 10px;
+  color: rgb(140, 26, 232);
+}
+.btn button:hover {
+  font-weight: 600;
+}

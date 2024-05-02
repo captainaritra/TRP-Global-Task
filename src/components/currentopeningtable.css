@@ -1,0 +1,140 @@
+.current-opening-table {
+  width: 65vw;
+  margin-left: 40px;
+}
+
+.table-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table-title h5 {
+  font-size: 18px;
+  color: black;
+}
+
+.table-title button {
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 10px;
+  color: gray;
+}
+
+.table-title button:hover {
+  font-weight: 600;
+  color: black;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+.table thead tr {
+  text-align: left;
+  font-size: 13px;
+  color: gray;
+}
+.table tbody tr td p {
+  font-size: 14px;
+  color: gray;
+  font-weight: 500;
+}
+.table tbody tr td {
+  color: black;
+  font-weight: 500;
+  padding: 15px 0 15px 0;
+  text-align: left;
+}
+.table tbody tr td svg {
+  height: 24px;
+  width: 24px;
+  color: gray;
+  cursor: pointer;
+}
+.table tbody tr td span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.table tbody tr td span svg {
+  height: 20px;
+  width: 20px;
+  color: gray;
+}
+.section-2 {
+  display: grid;
+  grid-template-columns: 72vw 1fr;
+}
+.side-part-2 {
+  padding: 40px 10px 10px 10px;
+}
+.side-part-2 .new-application-title h5 {
+  font-size: 18px;
+  color: black;
+}
+.side-part-2 .new-application-title button {
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 10px;
+  color: gray;
+}
+
+.side-part-2 .new-application-title button:hover {
+  font-weight: 600;
+  color: black;
+}
+.new-application-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profiles img {
+  max-height: 36px;
+  margin-right: 20px;
+  clip-path: circle();
+}
+
+.new-application-list ul {
+  list-style: none;
+}
+.new-application-list ul li .persons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.new-application-list ul li .profiles {
+  display: flex;
+  align-items: center;
+}
+.new-application-list ul li .person-name-role {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.new-application-list ul li .person-role {
+  display: flex;
+}
+.person-name {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+}
+.person-role :nth-child(1) {
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+}
+.person-role :nth-child(2) {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 3px;
+  color: rgb(100, 100, 100);
+}

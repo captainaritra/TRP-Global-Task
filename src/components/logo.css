@@ -1,0 +1,23 @@
+.logo img {
+    max-height: 30px;
+    border-radius: 50%;
+  }
+  
+  .logo span {
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+  }
+
+  .logo-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+  .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
